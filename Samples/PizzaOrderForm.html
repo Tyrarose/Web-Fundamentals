@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <meta charset="utf-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+   <title>Pizza Order Form</title>
+</head>
+<body>
+<form action="process.php" method="post">
+   <ul style="list-style-type:none;">
+      <h1>Pizza Order Form</h1>
+      <li><label>
+            First Name:  <input type="text" name="username" />
+      </label></li>
+      <li><label>
+               Last Name <input type="text" name="password" />
+      </label></li>
+      <li><label>
+               Email Address <input type="text" name="email" />
+      </label></li>
+      <li><label>
+               Contact Number <input type="text" name="number" />
+      </label></li>
+      <li><label>
+               Preferred Delivery Date: <input type="date" name="date" />
+      </label></li>
+
+      <li>Size:</li>
+      <label>
+            <input type="radio" name="size" value="small" /> Small
+      </label>
+      <label>
+            <input type="radio" name="size" value="medium" /> Medium
+      </label>
+      <label>
+            <input type="radio" name="size" value="large" /> Large
+      </label>
+
+      <li>Flavor:</li>
+      <li><label>
+            <input type="checkbox"  name="flavor" value="hawaiian"  /> Hawaiian (Php 150.00)
+         </label>
+         <select name="quantity" id="hawaiian_quantity">
+           <option value="1">1</option>
+           <option value="2">2</option>
+           <option value="3">3</option>
+         </select>
+      </li>
+      <li><label>
+            <input type="checkbox" name="flavor" value="pepperoni" /> Pepperoni (Php 140.00)
+         </label>
+         <select name="quantity" id="pepperoni_quantity">
+           <option value="1">1</option>
+           <option value="2">2</option>
+           <option value="3">3</option>
+         </select>
+      </li>
+      <li><label>
+            <input type="checkbox" name="flavor" value="vegetable" /> Vegetable (Php 130.00)
+         </label>
+         <select name="quantity" id="vegetable_quantity">
+              <option value="1">1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+         </select></li>
+
+      <li><label>
+            Credit Card Number:  <input type="number" name="card" />
+      </label></li>
+      <li><label>
+            PIN: <input type="password" name="pin" />
+      </label></li>
+      <li><label>
+            <p>Additional Note:</p>
+            <textarea name="additional_note"></textarea>
+      </label></li>
+      <li><input type="submit" value="Submit Order"></li>
+   </ul>
+   </form>
+</body>
+</html>

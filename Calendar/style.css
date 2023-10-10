@@ -1,0 +1,59 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    text-align: center;
+}
+
+.top{
+    display: inline;
+}
+
+.july2021{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 40px;
+    text-align: center;
+    padding: 0px 145px 20px 145px;
+    display: inline-block;
+}
+
+.calender{
+    display: block;
+}
+
+p {
+    text-align: center;
+    vertical-align: middle;
+    top: 50%;
+    padding: 10px;
+    min-height: 20px;
+    width: 90px;
+    display: inline-block;
+    margin: 5px;
+    border: 2px;
+    margin: 5px;
+    border: 2px;
+    border-style:solid;
+}
+
+.firstRow{
+    display: block;
+    font-weight: bold;
+}
+
+.row{
+    display: block;
+}
+
+.sunday{
+    background-color: #5B9BD5;
+}
+
+.saturday{
+    background-color: #A9D08E;
+}
+
+.noday{
+    background-color: #E7E6E6;
+    border-color: #E7E6E6;
+}

@@ -1,0 +1,231 @@
+*{
+    /* outline: 1px dotted pink; */
+    font-family: Arial, Helvetica, sans-serif
+}
+
+img {
+    height: 25px;
+}
+
+body{
+    padding:0;
+    margin:0;
+    background-color: #2D2D2D;
+}
+
+header{
+    background-color: #8892BF;
+    border-bottom: 5px solid #4F5B93;
+}
+
+.main{
+    background-color: #2D2D2D;
+}
+
+.navigationContainer ul{
+    margin: 0px 0px 0px 60px;
+    padding: 10px;
+}
+
+.navigationContainer li{
+    display: inline-block;  
+}
+
+.navigationContainer img{
+    vertical-align: middle;
+    padding: 0px 15px 0px 15px;
+}
+
+.navigationContainer a{
+    color: #D8DBE9;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.documentationActive{
+    color: #D8DBE9;
+    padding: 20px 10px 20px 10px;
+    background-color: #4F5B93;
+}
+
+.searchBarContainer{
+    margin-left: 550px;
+    width: 310px;
+    height: 19px;
+    background-color: white;
+    border: none;
+}
+
+.main{
+    background-color: #2B2B2B;
+    text-align: center;
+}
+
+.content{
+    width: 68%;
+    display: inline-block;
+    padding-right: 30px;
+}
+
+.breadcrumbs{
+    text-align: left;
+    margin: 15px 0px 15px 0px;
+    padding: 0px 20px 0px 20px;
+    font-size: 12px;
+}
+
+.breadcrumbs li{
+    padding: 0px 2px 0px 2px;
+    display: inline-block;
+    color: #D8DBE9;
+}
+
+.breadcrumbs a{
+    padding: 0px 2px 0px 2px;
+    color: #D8DBE9;
+    text-decoration: none;
+}
+
+
+.documentationpage{
+    padding: 0px 25px 30px 25px;
+    background-color: #F2F2F2;
+}
+
+.languageBar{
+    padding-top: 25px;
+    text-align: right;
+}
+
+.languages{
+    width: 135px;
+    font-size: 12px;
+}
+
+.report a{
+    font-size: 12px;
+    color: #3395CF;
+    padding: 0px 0px 0px 20px;
+    text-decoration: none;
+}
+
+h1{
+    text-align: left;
+    margin: 10px 0px 0px 0px;
+    padding-bottom: 5px;
+    border-bottom: 1px dotted #4A4A4A;
+    font-size: 26px;
+}
+
+h2{
+    margin: 20px 0px 0px 0px;
+    text-align: left;
+    padding-bottom: 5px;
+    border-bottom: 1px dotted #4A4A4A;
+}
+
+.documentationpage ul{
+    margin: 0px;
+    padding: 20px 0px 10px 20px;
+
+}
+
+.documentationpage li{
+    text-align: left;
+    padding: 1px;
+}
+
+.documentationpage a{
+    color: #33669A;
+}
+
+p{
+    text-align: justify;
+    font-size: 14px;
+}
+
+h3{
+    margin: 20px 0px 0px 0px;
+    text-align: left;
+    padding-bottom: 5px;
+    border-bottom: 1px dotted #4A4A4A;
+    color: #793862;
+}
+
+.userNotes img{
+    margin-left: 680px;
+    height: 10px;
+    padding-right: 5px;
+    vertical-align: top;
+}
+
+.userNotes a{
+    font-size: 10px;
+    vertical-align: top;
+}
+
+.sidebar{
+    width: 20%;
+    display: inline-block;
+    vertical-align: top;
+}
+
+
+.pagination{
+    vertical-align: top;
+    margin: 10px;
+}
+
+.pagination a{
+    padding: 15px 8px 15px 8px;
+    text-decoration: none;
+    color: #D8DBE9;
+    font-size: 12px;
+}
+
+.gettingStarted{
+    display: block;
+    list-style: none;
+    text-align: left;
+    padding-top: 20px;
+    border-bottom: 2px dotted #D8DBE9;
+    color: #D8DBE9;
+    padding-bottom: 10px;
+    text-decoration: none;
+}
+
+.levels {
+    padding-top: 10px;
+}
+
+.levels{
+    margin: 0px;
+    padding: 0px;
+}
+
+.levels a{
+    display: block;
+    text-align: left;
+    color: #D8DBE9;
+    border-bottom: 2px dotted #D8DBE9;
+    margin: 10px 0px px 0px;
+    font-size: 14px;
+    padding: 5px;
+}
+
+.levels .currentlevel{
+    color: #AE508D;
+    border-bottom: 2px dotted #AE508D;
+    font-weight: bold;
+}
+
+footer ul{
+    margin-left: 75px;
+}
+
+footer li{
+    display: inline-block;
+    color: #D8DBE9;
+    font-size: 13px;
+    margin: 30px 10px 0px 10px;
+}

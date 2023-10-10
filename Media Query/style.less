@@ -1,0 +1,42 @@
+*{
+    outline: 1px dotted pink;
+}
+body{
+    margin: auto;
+    text-align: center;
+}
+
+@media only screen and (max-width: 480px) {
+    .navbtn{
+        background-color: yellow;
+        font-size: 10px;
+        padding: 1%;
+        display: block;
+        margin: auto;
+    }
+}
+@media only screen and (min-width: 481px) {
+    body{
+        width: 40%;  
+    }
+    .navbtn{
+        background-color: blue;
+        font-size: 20px;
+        padding: 1%;
+        width: 40%;  
+        display: inline-block;
+    }
+}
+@media only screen and (min-width: 1024px) {
+    body{
+        width: 100%;   
+    }
+    .navbtn{
+        background-color: red;
+        font-size: 30px;
+        padding: 1%;
+        margin: 0px;
+        width: 50%;
+        display: inline-block;
+    }
+}

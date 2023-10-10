@@ -1,0 +1,10 @@
+// Given an array, move all values forward by one index, dropping the first and leaving a ‘0’ value at the end.  
+// For example moveForward( [1,2,3]) should return [2,3,0].
+
+function moveForward(arr){
+  arr.shift();
+  arr.push(0);
+  return arr;
+}
+
+console.log(moveForward( [1,2,3]));

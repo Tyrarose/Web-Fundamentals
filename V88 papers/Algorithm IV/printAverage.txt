@@ -1,0 +1,15 @@
+function printAverage(x){
+   var sum = 0;
+   // your code here
+   for(var i=0;i<x.length;i++){
+     sum += x[i];
+   }
+   var ave = sum / x.length;
+   return ave
+}
+var y = printAverage([1,2,3]);
+console.log(y); // should log 2
+  
+y = printAverage([2,5,8]);
+console.log(y); // should log 5
+

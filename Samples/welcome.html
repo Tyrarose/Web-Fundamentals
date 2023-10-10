@@ -1,0 +1,29 @@
+<form action="process.php" method="post">
+    <p>Registration Form</p>
+   <label>
+            Username:  <input type="text" name="username" />
+    </label>
+   <label for="password">
+            Password <input type="password" id="password" name="password" />
+   </label>
+   
+    <p>Do you agree in our Terms & Condition?</p>
+   <label>
+            <input type="radio" name="answer" value="yes" /> Yes, I accept the terms of condition
+    </label>
+    <label>
+            <input type="radio" name="answer" value="no" /> No, I will not accept the terms of condition
+    </label>
+
+    <p>Please check valid ids you have:</p>
+    <label>
+            <input type="checkbox"  name="valid_ids" value="passport"  /> Passport
+    </label>
+   <label>
+            <input type="checkbox" name="valid_ids" value="postal" /> Postal ID
+   </label>
+   <label>
+            <input type="checkbox" name="valid_ids" value="tin" /> TIN ID
+   </label>
+
+   <input type="submit" value="Submit">

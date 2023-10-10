@@ -1,0 +1,129 @@
+*{
+    /* outline: 1px dotted pink; */
+    font-family: Segoe UI, Tahoma, sans-serif;
+    font-size: 15px;
+}
+
+.container{
+    background-image: linear-gradient(#C9D5E1, #FBFCFE,#FBFCFE,#FBFCFE, #C9D5E1);
+    width: 745px;
+    text-align: center;
+    margin: auto;
+}
+
+
+.photoofme{
+    margin-top: 15px;
+    width: 220px;
+    background-color: blue;
+    display: inline-block;
+}
+
+.who{
+    width: 450px;
+    margin: 15px 5px 0px 30px;
+    display: inline-block;
+    vertical-align: top;
+}
+h1{
+    margin: 10px 0px 10px 0px;
+    color: #2D4767;
+    font-size: 40px;
+    letter-spacing: 4px;
+    text-align: left;
+}
+
+h3{
+    margin: 0px;
+    padding: 0px;
+    letter-spacing: 3px;
+    text-align: left;
+}
+.line{
+    padding-top: 35px;
+    border-bottom: 2px solid #2D4767;
+}
+
+h4{
+    margin-top: 15px;
+    font-size: 12px;
+    letter-spacing: 1.5px;
+    text-align: left;
+}
+
+
+img{
+    display: inline-block;
+    width: 50px;
+}
+
+.skills{
+    display: inline-block;
+}
+
+.languages{
+    width: 45%;
+    display: inline-block;
+    vertical-align: top;
+}
+.languages img{
+    padding: 3px;
+}
+
+.projects{
+    background-image: linear-gradient(#BDBDBD,#E9E9E9,#FBFCFE,#E9E9E9,#BDBDBD);
+    width: 50%;
+    display: inline-block;
+    padding: 0px;
+}
+
+.socialmedias{
+    padding: 35px 2px 15px 2px ;
+}
+
+.socialmedias img{
+    vertical-align: bottom;
+    display: inline-block;
+    width: 25px;
+    display: inline-block;
+}
+
+a{
+    vertical-align: bottom;
+    display: inline-block;
+    color: black;
+}
+
+p{
+    display: inline-block;
+    margin: 0px 0px 10px 0px;
+    text-align: justify;
+}
+
+.aboutbox{
+    background-color: #E6E9EE;
+    margin: 15px;
+}
+
+.about{
+    padding: 1px 20px 5px 20px;
+    text-align: justify;
+}
+
+h2{
+    text-align: center;
+    font-size: 20px;
+    letter-spacing: 2px;
+    margin: 10px 0px 10px 0px;
+}
+
+.projects p{
+    padding: 0px 25px 15px 25px;
+    text-align: left;
+}
+
+
+.projects h3{
+    padding: 0px 25px 00px 25px;
+    padding-left: 25px;
+}

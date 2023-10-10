@@ -1,0 +1,15 @@
+// Given an array and a value Y, count and 
+// print the number of array values greater than Y.
+
+function greaterThanY(a,b){
+  var arr = [];
+  for(var i=0;i<a.length;i++){
+      if(a[i]>b){
+        arr.push(a[i]);
+      }
+  }
+  return arr;
+}
+console.log(greaterThanY([8,2,5,4,7,-1,888,254,-55],5))
+
+
